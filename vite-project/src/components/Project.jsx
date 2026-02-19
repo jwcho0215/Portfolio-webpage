@@ -95,6 +95,7 @@ export const Project = () => {
               s
             </div>
           ))}
+          w
         </div>
         <div className="text-center mt-12">
             <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="">
