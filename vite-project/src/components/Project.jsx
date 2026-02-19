@@ -62,8 +62,8 @@ export const Project = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.skills.map((skill) => (
-                    <span className="px-2 py-1 text-xs border font-medium rounded-full bg-primary/20 text-secondary-foreground">
+                  {project.skills.map((skill,key) => (
+                    <span key={key} className="px-2 py-1 text-xs border font-medium rounded-full bg-primary/20 text-secondary-foreground">
                       {skill}
                     </span>
                   ))}
@@ -95,10 +95,9 @@ export const Project = () => {
               s
             </div>
           ))}
-          w
         </div>
         <div className="text-center mt-12">
-            <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="">
+            <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/jwpark0215" target="_blank" >
                 Check Github<ArrowRight size={16}/>
             </a>
         </div>
