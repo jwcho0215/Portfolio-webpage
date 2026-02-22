@@ -26,7 +26,7 @@ export const Contacts = () => {
                     href="mailto:jwpark021523@outlook.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    jwpark021523@outlook.com
+                    jwcho0215@outlook.com
                   </a>
                 </div>
               </div>

@@ -96,7 +96,7 @@ export const Project = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-            <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/jwpark0215" target="_blank" >
+            <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/jwcho0215" target="_blank" >
                 Check Github<ArrowRight size={16}/>
             </a>
         </div>
