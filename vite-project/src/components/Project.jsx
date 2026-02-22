@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
     demourl: "#",
-    giturl: "https://github.com/jwpark0215/Learning-react",
+    giturl: "https://github.com/jwcho0215/Learning-react",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     image: "projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
     demourl: "#",
-    giturl: "https://github.com/jwpark0215/Learning-react",
+    giturl: "https://github.com/jwcho0215/Learning-react",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     image: "public/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
     demourl: "#",
-    giturl: "https://github.com/jwpark0215/Learning-react",
+    giturl: "https://github.com/jwcho0215/Learning-react",
   },
 ];
 
