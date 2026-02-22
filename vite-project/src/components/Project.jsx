@@ -8,7 +8,7 @@ const projects = [
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
     image: "/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
-    demourl: "#",
+    demourl: "https://learning-react-iota-fawn.vercel.app/",
     giturl: "https://github.com/jwcho0215/Learning-react",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
     image: "projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
-    demourl: "#",
+    demourl: "https://learning-react-iota-fawn.vercel.app/",
     giturl: "https://github.com/jwcho0215/Learning-react",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
     image: "public/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
-    demourl: "#",
+    demourl: "https://learning-react-iota-fawn.vercel.app/",
     giturl: "https://github.com/jwcho0215/Learning-react",
   },
 ];
