@@ -6,7 +6,7 @@ const projects = [
     title: "Movie Application",
     description:
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
-    image: "../public/projects/movie.png",
+    image: "/public/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML"],
     demourl: "#",
     giturl: "https://github.com/jwpark0215/Learning-react",
