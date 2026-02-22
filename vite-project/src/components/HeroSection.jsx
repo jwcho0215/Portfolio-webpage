@@ -23,10 +23,14 @@ export const HeroSection = () => {
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I am a passionate postgraduate student at the University of New
             South Wales, currently pursuing a Master of Information Technology
-            with a strong interest in software development. I am always looking
+            with a strong interest in software development. 
+          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I am always looking
             to improve my knowledge from peers and mentors, and I am eager to
             take on new challenges.
           </p>
+          
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
                 View My Work
