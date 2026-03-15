@@ -3,17 +3,6 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Task Tracker",
-    description:
-      "Application that was created to manage tasks, this tool was created during a University Course, which received high praises from the instructors",
-    image: "/projects/tasktracker.png",
-    skills: ["Python", "Flask", "Javascript", "CSS", "HTML","Git" ,"Github", "Issue Boards", "Group"],
-    demourl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
-    giturl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
-    allowed: false,
-  },
-  {
-    id: 2,
     title: "Movie Application",
     description:
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
@@ -23,6 +12,19 @@ const projects = [
     giturl: "https://github.com/jwcho0215/Learning-react",
     allowed: true,
   },
+
+  {
+    id: 2,
+    title: "Task Tracker",
+    description:
+      "Application that was created to manage tasks, this tool was created during a University Course, which received high praises from the instructors",
+    image: "/projects/tasktracker.png",
+    skills: ["Python", "Flask", "Javascript", "CSS", "HTML","Git" ,"Github", "Issue Boards", "Group"],
+    demourl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
+    giturl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
+    allowed: false,
+  },
+  
   
   
 ];
