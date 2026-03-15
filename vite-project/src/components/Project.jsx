@@ -13,24 +13,15 @@ const projects = [
   },
   {
     id: 2,
-    title: "Movie Application",
+    title: "Task Tracker",
     description:
-      "A movie application built using React from a Movie API, which allows users to browse through movies.",
-    image: "projects/movie.png",
-    skills: ["React", "Javascript", "CSS", "HTML"],
+      "Application that was created to manage tasks, this tool was created during a University Course, which received high praises from the instructors",
+    image: "/projects/tasktracker.png",
+    skills: ["Python", "Flask", "Javascript", "CSS", "HTML"],
     demourl: "https://learning-react-iota-fawn.vercel.app/",
     giturl: "https://github.com/jwcho0215/Learning-react",
   },
-  {
-    id: 3,
-    title: "Movie Application",
-    description:
-      "A movie application built using React from a Movie API, which allows users to browse through movies.",
-    image: "public/projects/movie.png",
-    skills: ["React", "Javascript", "CSS", "HTML"],
-    demourl: "https://learning-react-iota-fawn.vercel.app/",
-    giturl: "https://github.com/jwcho0215/Learning-react",
-  },
+  
 ];
 
 export const Project = () => {
