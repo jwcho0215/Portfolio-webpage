@@ -3,26 +3,34 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Movie Application",
-    description:
-      "A movie application built using React from a Movie API, which allows users to browse through movies.",
-    image: "/projects/movie.png",
-    skills: ["React", "Javascript", "CSS", "HTML"],
-    demourl: "https://learning-react-iota-fawn.vercel.app/",
-    giturl: "https://github.com/jwcho0215/Learning-react",
-  },
-  {
-    id: 2,
     title: "Task Tracker",
     description:
       "Application that was created to manage tasks, this tool was created during a University Course, which received high praises from the instructors",
     image: "/projects/tasktracker.png",
-    skills: ["Python", "Flask", "Javascript", "CSS", "HTML"],
+    skills: ["Python", "Flask", "Javascript", "CSS", "HTML","Git" ,"Github", "Issue Boards", "Group"],
+    demourl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
+    giturl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
+    allowed: false,
+  },
+  {
+    id: 2,
+    title: "Movie Application",
+    description:
+      "A movie application built using React from a Movie API, which allows users to browse through movies.",
+    image: "/projects/movie.png",
+    skills: ["React", "Javascript", "CSS", "HTML", "Git", "Github"],
     demourl: "https://learning-react-iota-fawn.vercel.app/",
     giturl: "https://github.com/jwcho0215/Learning-react",
+    allowed: true,
   },
   
+  
 ];
+
+const handleAlert = (e) => {
+  e.preventDefault()
+  alert("Please contact me to get access to this project :) Its something that I worked at university so I must give you access.")
+}
 
 export const Project = () => {
   return (
@@ -68,6 +76,7 @@ export const Project = () => {
                   <div className="flex space-x-3">
                     <a
                       href={project.demourl}
+                      onClick={project.allowed ? undefined :handleAlert}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
@@ -75,6 +84,7 @@ export const Project = () => {
                     </a>
                     <a
                       href={project.giturl}
+                      onClick={project.allowed ? undefined:handleAlert}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
