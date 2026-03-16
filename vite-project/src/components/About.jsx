@@ -39,7 +39,9 @@ export const About = () => {
                     </div>
                     <div className="text-left">
                         <h4 className="font-semibold text-lg"> Academics</h4>
-                        <p className="text-muted-foreground">University of New South Wales, Master of Information Technology (Major: Datebase Systems) </p>
+                        <p className="text-muted-foreground">Master of Information Technology - University of New South Wales</p>
+                        <br />
+                        <p className="text-muted-foreground">Bachelor of Computing - University of Sydney</p>
                         <p className="text-muted-foreground"></p>
                     </div>
                 </div>

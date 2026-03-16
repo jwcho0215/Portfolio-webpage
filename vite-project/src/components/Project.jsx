@@ -8,7 +8,7 @@ const projects = [
       "A movie application built using React from a Movie API, which allows users to browse through movies.",
     image: "/projects/movie.png",
     skills: ["React", "Javascript", "CSS", "HTML", "Git", "Github"],
-    demourl: "https://learning-react-iota-fawn.vercel.app/",
+    demourl: "https://learning-react-bostkdfs8-jwpark0215s-projects.vercel.app",
     giturl: "https://github.com/jwcho0215/Learning-react",
     allowed: true,
   },
@@ -19,10 +19,10 @@ const projects = [
     description:
       "Application that was created to manage tasks, this tool was created during a University Course, which received high praises from the instructors",
     image: "/projects/tasktracker.png",
-    skills: ["Python", "Flask", "Javascript", "CSS", "HTML","Git" ,"Github", "Issue Boards", "Group"],
-    demourl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
-    giturl: "https://gitlab.cse.unsw.edu.au/coursework/comp9820/26t1/groups/T11A-A/tasktracker",
-    allowed: false,
+    skills: ["Python", "Flask", "Javascript", "CSS", "HTML","Git" ,"Github", "Issue Boards", "Group", "Testing"],
+    demourl: "https://group-project-university.vercel.app/",
+    giturl: "https://github.com/jwcho0215/Group-Project-University",
+    allowed: true,
   },
   
   

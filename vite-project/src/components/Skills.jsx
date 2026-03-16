@@ -11,6 +11,7 @@ const skills = [
   { name: "Hadoop", level: 85, categories: "data" },
   { name: "SQL", level: 85, categories: "data" },
   { name: "Git/Github ", level: 90, categories: "tools" },
+  {name: "Testing", level: 90, categories: "tools"},
 ];
 const categories = ["all", "frontend", "backend", "data", "tools"];
 
