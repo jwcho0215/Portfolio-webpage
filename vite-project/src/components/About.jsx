@@ -65,7 +65,7 @@ export const About = () => {
                     <div className="text-left">
                         <h4 className="font-semibold text-lg"> Skills</h4>
                         <p className="text-muted-foreground">
-                          React, JavaScript, TypeScript, Python, HTML, CSS, Java, C, Shell, Bash, Dash, SQL, Unix, Linux, etc.
+                          React, JavaScript, TypeScript, Python, HTML, CSS, Java, C, Shell, Bash, Dash, SQL, Unix, Linux, Spark, Big Data Management,etc.
                            </p>
                     </div>
                 </div>
