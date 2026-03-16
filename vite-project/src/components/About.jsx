@@ -13,8 +13,8 @@ export const About = () => {
             <h3 className="text-2xl font-semibold">
               Eager to learn and grow as a developer!
             </h3>
-            <h4 className="text-muted-foreground">Some of the technologies I'm familiar with include, but are not limited to: </h4>
-            <p className="text-muted-foreground">React, JavaScript, TypeScript, Python, HTML, CSS, Java, C, Shell, Bash, Dash, SQL, Unix, Linux, etc.</p>
+            
+            <p className="text-muted-foreground">Developed projects and grew my skills sets in Frontend, Backend, and Full-Stack development. Furthermore, I have tested applications to ensure that it works as intended, throughout various projects. Also, I have experience writing scripts in Shell to streamline processes for software development.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
@@ -42,7 +42,7 @@ export const About = () => {
                         <p className="text-muted-foreground">Master of Information Technology - University of New South Wales</p>
                         <br />
                         <p className="text-muted-foreground">Bachelor of Computing - University of Sydney</p>
-                        <p className="text-muted-foreground"></p>
+                        
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@ export const About = () => {
                         <Code className="h-6 w-6 text-primary"/>
                     </div>
                     <div className="text-left">
-                        <h4 className="font-semibold text-lg"> Development</h4>
-                        <p className="text-muted-foreground">Interested in roles for Frontend, Backend, Devops, FullStack, Site Reliability Engineer </p>
+                        <h4 className="font-semibold text-lg">Development</h4>
+                        <p className="text-muted-foreground">Interested in roles for Frontend, Backend, Devops, FullStack, Site Reliability Engineer, Testing, Data Analyst, etc. </p>
                     </div>
                 </div>
             </div> 
@@ -64,7 +64,9 @@ export const About = () => {
                     </div>
                     <div className="text-left">
                         <h4 className="font-semibold text-lg"> Skills</h4>
-                        <p className="text-muted-foreground">Developed projects and grew my skills sets in Frontend, Backend, and Full-Stack development. Also, I have experience writing scripts in Shell to streamline processes for software. </p>
+                        <p className="text-muted-foreground">
+                          React, JavaScript, TypeScript, Python, HTML, CSS, Java, C, Shell, Bash, Dash, SQL, Unix, Linux, etc.
+                           </p>
                     </div>
                 </div>
             </div>
